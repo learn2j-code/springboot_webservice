@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/vue.min.js"></script>
+	<script src="./js/axios.min.js"></script>    
+    <script type="text/javascript">
+          $(function () {
+              $("#btnSure").click(function () {
+                 var hp = $("#hp").val();
+                 $.ajax({
+                     type: "Post", //Post传参
+                     url: "http://localhost:8080/demo/api/sayHello",//服务地址
+                     data: "{hp:'"+hp+"',"+"name:'"+name+"'}",//参数
+                     dataType: "json",                    
+                     contentType: "application/json;charset=utf-8",
+                     success: function (result) {
+                         // 调用成功后，将获取的名字填入name文本框中。
+                         
+                     },
+                     error: function (e) {
+                         window.alert(e.status);
+                     }
+                 })
+             })
+         })
+    </script>
+
+    <meta charset="utf-8" />
+</head>
+<body>
+     <div>
+        <input type="text" id="hp" />
+        <input type="text" id="name" />
+        <input type="button" id="btnSure" value="确 定" />
+    </div>
+</body>
+</html>
+	

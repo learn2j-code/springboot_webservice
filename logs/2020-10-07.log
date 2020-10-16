@@ -1,0 +1,1292 @@
+19:56:28.481 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+19:56:28.482 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+19:56:28.482 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+19:56:28.662 [background-preinit] INFO  org.hibernate.validator.internal.util.Version 30- HV000001: Hibernate Validator 5.3.6.Final
+19:56:28.739 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1fbf952b: startup date [Wed Oct 07 19:56:28 CST 2020]; root of context hierarchy
+19:56:30.085 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:56:30.123 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+19:56:30.644 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+19:56:30.655 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+19:56:30.656 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+19:56:30.905 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:30.906 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:30.916 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19:56:30.927 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+19:56:30.928 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 2190 ms
+19:56:31.268 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+19:56:31.270 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+19:56:31.274 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+19:56:31.275 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+19:56:31.276 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+19:56:31.276 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+19:56:31.276 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+19:56:31.963 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+19:56:32.686 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+19:56:33.077 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1fbf952b: startup date [Wed Oct 07 19:56:28 CST 2020]; root of context hierarchy
+19:56:33.144 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+19:56:33.146 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+19:56:33.194 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:56:33.194 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:56:33.209 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+19:56:33.230 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:56:33.950 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+19:56:34.003 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+19:56:34.117 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+19:56:34.133 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+19:56:34.150 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+19:56:34.229 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+19:56:34.238 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 6.325 seconds (JVM running for 8.741)
+20:00:53.287 [http-nio-8080-exec-6] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- ==>  Preparing: insert into hero (name, hp) values (?, ?) 
+20:00:53.305 [http-nio-8080-exec-6] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- ==> Parameters: 鲁班(String), 188.0(Float)
+20:00:53.451 [http-nio-8080-exec-6] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- <==    Updates: 1
+20:00:53.474 [http-nio-8080-exec-6] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- ==>  Preparing: SELECT LAST_INSERT_ID() 
+20:00:53.475 [http-nio-8080-exec-6] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- ==> Parameters: 
+20:00:53.518 [http-nio-8080-exec-6] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- <==      Total: 1
+20:03:24.715 [http-nio-8080-exec-8] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:03:45.914 [http-nio-8080-exec-10] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:03:57.044 [http-nio-8080-exec-2] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:05:51.172 [http-nio-8080-exec-6] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:05:57.767 [http-nio-8080-exec-9] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character 'h' (code 104) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character 'h' (code 104) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:06:37.794 [http-nio-8080-exec-2] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character 'h' (code 104) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character 'h' (code 104) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:10:44.229 [http-nio-8080-exec-5] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Error reading XMLStreamReader: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:283)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:69)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at com.ctc.wstx.sr.BasicStreamReader.nextTag(BasicStreamReader.java:1154)
+	at org.apache.cxf.binding.soap.interceptor.ReadHeadersInterceptor.handleMessage(ReadHeadersInterceptor.java:169)
+	... 52 common frames omitted
+20:20:16.059 [http-nio-8080-exec-1] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService#{http://webservice.smh.how2java.com}sayHello has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Unmarshalling Error: Not a number: ? 
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:905)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:712)
+	at org.apache.cxf.jaxb.io.DataReaderImpl.read(DataReaderImpl.java:179)
+	at org.apache.cxf.wsdl.interceptors.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:109)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.xml.bind.UnmarshalException: null
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.handleStreamException(UnmarshallerImpl.java:483)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:417)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:394)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.doUnmarshal(JAXBEncoderDecoder.java:855)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.access$100(JAXBEncoderDecoder.java:102)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder$2.run(JAXBEncoderDecoder.java:894)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:892)
+	... 54 common frames omitted
+Caused by: com.sun.istack.SAXParseException2: Not a number: ?
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:740)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:770)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:766)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.handleParseConversionException(Loader.java:275)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:69)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:589)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.processText(StAXStreamConnector.java:338)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.handleEndElement(StAXStreamConnector.java:216)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.bridge(StAXStreamConnector.java:185)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:415)
+	... 60 common frames omitted
+Caused by: javax.xml.bind.UnmarshalException: Not a number: ?
+	... 70 common frames omitted
+Caused by: java.lang.NumberFormatException: Not a number: ?
+	at com.sun.xml.bind.DatatypeConverterImpl._parseInt(DatatypeConverterImpl.java:124)
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17.parse(RuntimeBuiltinLeafInfoImpl.java:738)
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17.parse(RuntimeBuiltinLeafInfoImpl.java:736)
+	at com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:245)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:65)
+	... 65 common frames omitted
+20:20:31.887 [http-nio-8080-exec-2] WARN  org.apache.cxf.phase.PhaseInterceptorChain 449- Interceptor for {http://webservice.smh.how2java.com}DemoService#{http://webservice.smh.how2java.com}sayHello has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Unmarshalling Error: Not a number: ? 
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:905)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:712)
+	at org.apache.cxf.jaxb.io.DataReaderImpl.read(DataReaderImpl.java:179)
+	at org.apache.cxf.wsdl.interceptors.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:109)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.how2java.smh.filter.CorsFilter.doFilter(CorsFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.xml.bind.UnmarshalException: null
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.handleStreamException(UnmarshallerImpl.java:483)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:417)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:394)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.doUnmarshal(JAXBEncoderDecoder.java:855)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.access$100(JAXBEncoderDecoder.java:102)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder$2.run(JAXBEncoderDecoder.java:894)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:892)
+	... 54 common frames omitted
+Caused by: com.sun.istack.SAXParseException2: Not a number: ?
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:740)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:770)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:766)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.handleParseConversionException(Loader.java:275)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:69)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:589)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.processText(StAXStreamConnector.java:338)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.handleEndElement(StAXStreamConnector.java:216)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.bridge(StAXStreamConnector.java:185)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:415)
+	... 60 common frames omitted
+Caused by: javax.xml.bind.UnmarshalException: Not a number: ?
+	... 70 common frames omitted
+Caused by: java.lang.NumberFormatException: Not a number: ?
+	at com.sun.xml.bind.DatatypeConverterImpl._parseInt(DatatypeConverterImpl.java:124)
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17.parse(RuntimeBuiltinLeafInfoImpl.java:738)
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17.parse(RuntimeBuiltinLeafInfoImpl.java:736)
+	at com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:245)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:65)
+	... 65 common frames omitted
+20:20:40.725 [http-nio-8080-exec-3] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- ==>  Preparing: insert into hero (name, hp) values (?, ?) 
+20:20:40.727 [http-nio-8080-exec-3] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- ==> Parameters: 阿道夫(String), 43.0(Float)
+20:20:40.804 [http-nio-8080-exec-3] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- <==    Updates: 1
+20:20:40.805 [http-nio-8080-exec-3] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- ==>  Preparing: SELECT LAST_INSERT_ID() 
+20:20:40.806 [http-nio-8080-exec-3] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- ==> Parameters: 
+20:20:40.807 [http-nio-8080-exec-3] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- <==      Total: 1
+20:21:29.699 [http-nio-8080-exec-5] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- ==>  Preparing: insert into hero (name, hp) values (?, ?) 
+20:21:29.700 [http-nio-8080-exec-5] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- ==> Parameters: 阿道夫(String), 43.0(Float)
+20:21:29.753 [http-nio-8080-exec-5] DEBUG com.how2java.smh.mapper.HeroMapper.insert 145- <==    Updates: 1
+20:21:29.756 [http-nio-8080-exec-5] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- ==>  Preparing: SELECT LAST_INSERT_ID() 
+20:21:29.758 [http-nio-8080-exec-5] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- ==> Parameters: 
+20:21:29.761 [http-nio-8080-exec-5] DEBUG com.how2java.smh.mapper.HeroMapper.insert!selectKey 145- <==      Total: 1
+20:25:19.538 [Thread-7] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1fbf952b: startup date [Wed Oct 07 19:56:28 CST 2020]; root of context hierarchy
+20:25:19.596 [Thread-7] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:25:21.140 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:25:21.140 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:25:21.140 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:25:21.143 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@507632ec: startup date [Wed Oct 07 20:25:21 CST 2020]; root of context hierarchy
+20:25:21.696 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:25:21.698 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:25:21.753 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:25:21.754 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:25:21.754 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:25:21.819 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:25:21.820 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:25:21.821 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:25:21.822 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:25:21.822 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 679 ms
+20:25:21.861 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:25:21.862 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:25:21.863 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:25:21.863 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:25:21.863 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:25:21.864 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:25:21.864 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:25:22.079 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:25:22.129 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:25:22.231 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@507632ec: startup date [Wed Oct 07 20:25:21 CST 2020]; root of context hierarchy
+20:25:22.241 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:25:22.241 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:25:22.249 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:25:22.249 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:25:22.258 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:25:22.263 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:25:22.343 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:25:22.383 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:25:22.391 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:25:22.392 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:25:22.393 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:25:22.401 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:25:22.405 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 1.369 seconds (JVM running for 1736.908)
+20:26:09.245 [Thread-16] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@507632ec: startup date [Wed Oct 07 20:25:21 CST 2020]; root of context hierarchy
+20:26:09.248 [Thread-16] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:26:10.751 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:26:10.752 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:26:10.752 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:26:10.755 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b15af6a: startup date [Wed Oct 07 20:26:10 CST 2020]; root of context hierarchy
+20:26:11.281 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:26:11.284 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:26:11.331 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:26:11.332 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:26:11.332 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:26:11.417 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:26:11.419 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:26:11.419 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:26:11.421 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:26:11.421 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 666 ms
+20:26:11.455 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:26:11.456 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:26:11.456 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:26:11.456 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:26:11.456 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:26:11.457 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:26:11.457 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:26:11.600 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:26:11.629 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:26:11.701 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b15af6a: startup date [Wed Oct 07 20:26:10 CST 2020]; root of context hierarchy
+20:26:11.712 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:26:11.712 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:26:11.719 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:11.720 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:11.727 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:26:11.731 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:11.813 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:26:11.849 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:26:11.856 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:26:11.856 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:26:11.857 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:26:11.865 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:26:11.868 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 1.171 seconds (JVM running for 1786.371)
+20:26:17.409 [Thread-24] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b15af6a: startup date [Wed Oct 07 20:26:10 CST 2020]; root of context hierarchy
+20:26:17.413 [Thread-24] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:26:18.825 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:26:18.826 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:26:18.826 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:26:18.830 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b4f0229: startup date [Wed Oct 07 20:26:18 CST 2020]; root of context hierarchy
+20:26:19.478 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:26:19.480 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:26:19.543 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:26:19.543 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:26:19.544 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:26:19.633 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:26:19.635 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:26:19.635 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:26:19.636 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:26:19.636 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 806 ms
+20:26:19.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:26:19.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:26:19.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:26:19.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:26:19.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:26:19.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:26:19.671 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:26:19.815 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:26:19.857 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:26:19.941 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b4f0229: startup date [Wed Oct 07 20:26:18 CST 2020]; root of context hierarchy
+20:26:19.950 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:26:19.951 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:26:19.957 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:19.957 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:19.965 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:26:19.969 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:20.041 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:26:20.076 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:26:20.093 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:26:20.093 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:26:20.095 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:26:20.100 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:26:20.108 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 1.357 seconds (JVM running for 1794.611)
+20:26:53.378 [Thread-32] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b4f0229: startup date [Wed Oct 07 20:26:18 CST 2020]; root of context hierarchy
+20:26:53.380 [Thread-32] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:26:54.727 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:26:54.727 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:26:54.727 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:26:54.729 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251e2b45: startup date [Wed Oct 07 20:26:54 CST 2020]; root of context hierarchy
+20:26:55.223 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:26:55.225 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:26:55.278 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:26:55.279 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:26:55.279 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:26:55.322 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:26:55.324 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:26:55.324 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:26:55.325 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:26:55.325 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 596 ms
+20:26:55.360 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:26:55.361 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:26:55.361 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:26:55.362 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:26:55.362 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:26:55.362 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:26:55.362 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:26:55.477 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:26:55.503 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:26:55.572 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251e2b45: startup date [Wed Oct 07 20:26:54 CST 2020]; root of context hierarchy
+20:26:55.579 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:26:55.579 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:26:55.586 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:55.586 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:55.593 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:26:55.599 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:26:55.686 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:26:55.732 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:26:55.742 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:26:55.743 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:26:55.757 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:26:55.771 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:26:55.776 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 1.095 seconds (JVM running for 1830.279)
+20:26:59.243 [Thread-40] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251e2b45: startup date [Wed Oct 07 20:26:54 CST 2020]; root of context hierarchy
+20:26:59.246 [Thread-40] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:27:00.634 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:27:00.635 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:27:00.635 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:27:00.637 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9cfce08: startup date [Wed Oct 07 20:27:00 CST 2020]; root of context hierarchy
+20:27:01.086 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:27:01.088 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:27:01.133 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:27:01.134 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:27:01.134 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:27:01.177 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:27:01.178 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:27:01.179 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:27:01.180 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:27:01.180 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 543 ms
+20:27:01.215 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:27:01.216 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:27:01.216 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:27:01.216 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:27:01.217 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:27:01.217 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:27:01.217 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:27:01.332 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:27:01.362 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:27:01.430 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9cfce08: startup date [Wed Oct 07 20:27:00 CST 2020]; root of context hierarchy
+20:27:01.438 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:27:01.438 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:27:01.444 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:01.444 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:01.451 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:27:01.454 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:01.521 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:27:01.561 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:27:01.567 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:27:01.568 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:27:01.570 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:27:01.576 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:27:01.582 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 0.995 seconds (JVM running for 1836.084)
+20:27:10.160 [Thread-48] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9cfce08: startup date [Wed Oct 07 20:27:00 CST 2020]; root of context hierarchy
+20:27:10.162 [Thread-48] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:27:11.561 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:27:11.561 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:27:11.561 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:27:11.563 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2671ec75: startup date [Wed Oct 07 20:27:11 CST 2020]; root of context hierarchy
+20:27:11.969 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:27:11.971 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:27:12.017 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:27:12.018 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:27:12.018 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:27:12.060 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:27:12.061 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:27:12.061 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:27:12.062 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:27:12.062 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 499 ms
+20:27:12.092 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:27:12.092 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:27:12.092 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:27:12.092 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:27:12.093 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:27:12.093 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:27:12.093 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:27:12.209 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:27:12.238 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:27:12.302 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2671ec75: startup date [Wed Oct 07 20:27:11 CST 2020]; root of context hierarchy
+20:27:12.309 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:27:12.309 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:27:12.315 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:12.315 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:12.322 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:27:12.325 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:12.392 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:27:12.425 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:27:12.431 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:27:12.431 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:27:12.433 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:27:12.440 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:27:12.443 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 0.929 seconds (JVM running for 1846.946)
+20:27:39.681 [Thread-56] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2671ec75: startup date [Wed Oct 07 20:27:11 CST 2020]; root of context hierarchy
+20:27:39.685 [Thread-56] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+20:27:41.110 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 30120 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+20:27:41.111 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+20:27:41.111 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+20:27:41.113 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2737c0e6: startup date [Wed Oct 07 20:27:41 CST 2020]; root of context hierarchy
+20:27:41.579 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$43b984a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:27:41.581 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20:27:41.650 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+20:27:41.652 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+20:27:41.653 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+20:27:41.723 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:27:41.724 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:27:41.725 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:27:41.726 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+20:27:41.726 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 613 ms
+20:27:41.768 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+20:27:41.769 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+20:27:41.769 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+20:27:41.769 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:27:41.769 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:27:41.770 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+20:27:41.770 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+20:27:41.903 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+20:27:41.932 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+20:27:42.000 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2737c0e6: startup date [Wed Oct 07 20:27:41 CST 2020]; root of context hierarchy
+20:27:42.008 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:27:42.009 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:27:42.014 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:42.014 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:42.021 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+20:27:42.025 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:27:42.107 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+20:27:42.169 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+20:27:42.176 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+20:27:42.178 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+20:27:42.180 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+20:27:42.188 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+20:27:42.193 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 1.128 seconds (JVM running for 1876.695)
+20:56:58.251 [RMI TCP Connection(82)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 125- Application shutdown requested.
+20:56:58.252 [RMI TCP Connection(82)-127.0.0.1] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2737c0e6: startup date [Wed Oct 07 20:27:41 CST 2020]; root of context hierarchy
+20:56:58.256 [RMI TCP Connection(82)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown

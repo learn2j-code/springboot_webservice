@@ -1,0 +1,333 @@
+15:02:48.273 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 8400 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+15:02:48.274 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+15:02:48.275 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+15:02:48.616 [background-preinit] INFO  org.hibernate.validator.internal.util.Version 30- HV000001: Hibernate Validator 5.3.6.Final
+15:02:48.776 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23bb94ba: startup date [Sun Oct 11 15:02:48 CST 2020]; root of context hierarchy
+15:02:50.276 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$77639106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:02:50.402 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+15:02:51.035 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+15:02:51.045 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+15:02:51.046 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+15:02:51.289 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:02:51.290 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:02:51.321 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:02:51.327 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+15:02:51.327 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 2551 ms
+15:02:51.735 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+15:02:51.737 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+15:02:51.740 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+15:02:51.741 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:02:51.741 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:02:51.741 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+15:02:51.741 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+15:02:52.429 [restartedMain] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 551- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'heroServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'heroMapper' defined in file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\com\how2java\smh\mapper\HeroMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\mybatis\mapper\HeroMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+15:02:52.432 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Stopping service [Tomcat]
+15:02:52.444 [localhost-startStop-1] WARN  org.apache.catalina.loader.WebappClassLoaderBase 179- The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+ com.mysql.jdbc.NonRegisteringDriver$1.run(NonRegisteringDriver.java:93)
+15:02:52.455 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer 101- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+15:02:52.464 [restartedMain] ERROR org.springframework.boot.SpringApplication 771- Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'heroServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'heroMapper' defined in file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\com\how2java\smh\mapper\HeroMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\mybatis\mapper\HeroMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.how2java.smh.Application.main(Application.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'heroMapper' defined in file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\com\how2java\smh\mapper\HeroMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\mybatis\mapper\HeroMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\mybatis\mapper\HeroMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\mybatis\mapper\HeroMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 47 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes\mybatis\mapper\HeroMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5a01d37.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5a01d37$$FastClassBySpringCGLIB$$68cad0ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5a01d37.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 48 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 61 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.how2java.smh.mapper.HeroMapper.BaseResultMap
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:837)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:809)
+	at org.apache.ibatis.session.Configuration.addResultMap(Configuration.java:591)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:214)
+	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:47)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:285)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 63 common frames omitted
+15:45:50.848 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 4812 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+15:45:50.849 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+15:45:50.850 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+15:45:50.995 [background-preinit] INFO  org.hibernate.validator.internal.util.Version 30- HV000001: Hibernate Validator 5.3.6.Final
+15:45:51.066 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d0187b: startup date [Sun Oct 11 15:45:51 CST 2020]; root of context hierarchy
+15:45:52.189 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55fadf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:45:52.230 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+15:45:52.625 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+15:45:52.634 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+15:45:52.636 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+15:45:52.867 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:45:52.868 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:45:52.873 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:45:52.878 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+15:45:52.879 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 1813 ms
+15:45:53.216 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+15:45:53.218 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+15:45:53.224 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+15:45:53.225 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:45:53.226 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:45:53.226 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+15:45:53.226 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+15:45:54.092 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+15:45:54.743 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+15:45:55.019 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d0187b: startup date [Sun Oct 11 15:45:51 CST 2020]; root of context hierarchy
+15:45:55.072 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:45:55.074 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:45:55.102 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:45:55.103 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:45:55.117 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+15:45:55.144 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:45:55.722 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+15:45:55.773 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+15:45:55.804 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+15:45:55.814 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+15:45:55.897 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+15:45:55.930 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+15:45:55.937 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 5.438 seconds (JVM running for 7.392)
+15:49:14.636 [Thread-7] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d0187b: startup date [Sun Oct 11 15:45:51 CST 2020]; root of context hierarchy
+15:49:14.706 [Thread-7] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+15:49:16.135 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 4812 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+15:49:16.135 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+15:49:16.135 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+15:49:16.138 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564991f6: startup date [Sun Oct 11 15:49:16 CST 2020]; root of context hierarchy
+15:49:16.692 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 327- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55fadf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:49:16.694 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping 236- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+15:49:16.747 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 89- Tomcat initialized with port(s): 8080 (http)
+15:49:16.747 [restartedMain] INFO  org.apache.catalina.core.StandardService 179- Starting service [Tomcat]
+15:49:16.748 [restartedMain] INFO  org.apache.catalina.core.StandardEngine 179- Starting Servlet Engine: Apache Tomcat/8.5.23
+15:49:16.808 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:49:16.809 [localhost-startStop-1] WARN  org.apache.tomcat.util.scan.StandardJarScanner 181- Failed to scan [file:/D:/maven/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: D:\maven\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (系统找不到指定的文件。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:49:16.810 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner 179- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:49:16.812 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 179- Initializing Spring embedded WebApplicationContext
+15:49:16.812 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader 276- Root WebApplicationContext: initialization completed in 674 ms
+15:49:16.853 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'CXFServlet' to [/webservice/*]
+15:49:16.854 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190- Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+15:49:16.854 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'characterEncodingFilter' to: [/*]
+15:49:16.855 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:49:16.855 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:49:16.855 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'requestContextFilter' to: [/*]
+15:49:16.855 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean 258- Mapping filter: 'corsFilter' to: [/*]
+15:49:17.165 [restartedMain] INFO  org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean 434- Creating Service {http://webservice.smh.how2java.com}DemoService from class com.how2java.smh.webservice.DemoService
+15:49:17.196 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl 85- Setting the server's publish address to be /api
+15:49:17.279 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564991f6: startup date [Sun Oct 11 15:49:16 CST 2020]; root of context hierarchy
+15:49:17.288 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:49:17.288 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 543- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:49:17.296 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:49:17.296 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:49:17.303 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver 273- Detected @ExceptionHandler methods in globalExceptionHandler
+15:49:17.309 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping 362- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:49:17.390 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58- LiveReload server is running on port 35729
+15:49:17.445 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 431- Registering beans for JMX exposure on startup
+15:49:17.456 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Initializing ProtocolHandler ["http-nio-8080"]
+15:49:17.457 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 179- Starting ProtocolHandler ["http-nio-8080"]
+15:49:17.459 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool 179- Using a shared selector for servlet write/read
+15:49:17.469 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 201- Tomcat started on port(s): 8080 (http)
+15:49:17.474 [restartedMain] INFO  com.how2java.smh.Application 57- Started Application in 1.407 seconds (JVM running for 208.929)
+15:49:23.950 [Thread-15] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 984- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564991f6: startup date [Sun Oct 11 15:49:16 CST 2020]; root of context hierarchy
+15:49:23.954 [Thread-15] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter 449- Unregistering JMX-exposed beans on shutdown
+15:49:25.443 [restartedMain] INFO  com.how2java.smh.Application 48- Starting Application on DESKTOP-JDIP0IK with PID 4812 (D:\MyWork\workspace\eclipse-neon\springboot_webservice\target\classes started by thinkad in D:\MyWork\workspace\eclipse-neon\springboot_webservice)
+15:49:25.444 [restartedMain] DEBUG com.how2java.smh.Application 51- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+15:49:25.444 [restartedMain] INFO  com.how2java.smh.Application 593- No active profile set, falling back to default profiles: default
+15:49:25.447 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext 583- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@154316c5: startup date [Sun Oct 11 15:49:25 CST 2020]; root of context hierarchy
